@@ -55,7 +55,7 @@ Sin City 4.16667
 
 The ratings file is read and the similarity between all pairs of items is computed using the Pearson correlation equation as mentioned below:
 <p align="center">
-<img src="https://github.com/NandanNayak/Recommender-System-using-Item-Based-Collaborative-Filtering/blob/edits/Pic1.png" />
+<img src="https://github.com/NandanNayak/Recommender-System-using-Item-Based-Collaborative-Filtering/blob/master/Pic1.png" />
 </p>
 •	Sum over set of users U who rated both items i, j.
 
@@ -71,13 +71,13 @@ Sometimes there is not enough data to compute the similarity between two items. 
 Using the prediction equation, the rating of a user ‘U’ on an item ‘i’ that the user has not already rated is predicted:
 
 <p align="center">
-<img src="https://github.com/NandanNayak/Recommender-System-using-Item-Based-Collaborative-Filtering/blob/edits/Pic2.png" />
+<img src="https://github.com/NandanNayak/Recommender-System-using-Item-Based-Collaborative-Filtering/blob/master/Pic2.png" />
 </p>
  
  If there are fewer than N items with nonzero similarity to item i, then the similarity function returns a prediction of 0.0.
  
 <p align="center">
-<img src="https://github.com/NandanNayak/Recommender-System-using-Item-Based-Collaborative-Filtering/blob/edits/Pic3.png" />
+<img src="https://github.com/NandanNayak/Recommender-System-using-Item-Based-Collaborative-Filtering/blob/master/Pic3.png" />
 </p>
  
 The program outputs a list of ‘k’ items to recommend to the user specified as an input argument. The k items with the highest predicted rating for this user is identified. 
